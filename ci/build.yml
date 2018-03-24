@@ -7,8 +7,8 @@ image_resource:
     tag: 8
 
 inputs:
-- name: app_with_modules
-  path: ./app
+- name: app
+- name: node_modules
 
 run:
   path: ./app/scripts/build.sh

@@ -10,8 +10,7 @@ inputs:
 - name: app
 
 outputs:
-- name: app_with_modules
-  path: ./app
+- name: node_modules
 
 run:
   path: ./app/scripts/dependencies.sh
