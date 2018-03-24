@@ -3,6 +3,5 @@
 set -e -x
 
 pushd app
-	npm run build
-	npm run test
+	npm install
 popd
