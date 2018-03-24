@@ -3,9 +3,9 @@
 set -e -x
 
 pushd app
-	ls ../modules
-	ls
 	mv ../modules/node_modules node_modules
+	mv ../build/build build
+	
 	npm run build
 	npm run test
 popd

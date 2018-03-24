@@ -6,11 +6,13 @@ resources:
     branch: master
 
 jobs:
-- name: dependencies
+- name: build
   plan:
   - get: app
     trigger: true
   - task: dependencies
-    file: app/ci/dependencies.yml
+    file: app/ci/1-dependencies.yml
   - task: build
-    file: app/ci/build.yml
+    file: app/ci/2-build.yml
+  - task: test
+    file: app/ci/3-test.yml

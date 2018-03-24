@@ -8,9 +8,10 @@ image_resource:
 
 inputs:
 - name: app
-
-outputs:
 - name: modules
 
+outputs:
+- name: build
+
 run:
-  path: ./app/scripts/dependencies.sh
+  path: ./app/scripts/2-build.sh

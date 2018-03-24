@@ -9,6 +9,7 @@ image_resource:
 inputs:
 - name: app
 - name: modules
+- name: build
 
 run:
-  path: ./app/scripts/build.sh
+  path: ./app/scripts/3-test.sh
