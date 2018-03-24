@@ -10,8 +10,8 @@ inputs:
 - name: app
 
 outputs:
-- name: modules
-  path: ./tmp/modules
+- name: app_with_modules
+  path: ./app
 
 run:
   path: ./app/scripts/dependencies.sh
