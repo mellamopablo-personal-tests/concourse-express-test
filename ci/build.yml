@@ -8,7 +8,6 @@ image_resource:
 
 inputs:
 - name: app
-- name: modules
 
 run:
   path: ./app/scripts/build.sh

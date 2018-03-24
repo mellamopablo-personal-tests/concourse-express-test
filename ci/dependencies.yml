@@ -9,9 +9,5 @@ image_resource:
 inputs:
 - name: app
 
-outputs:
-- name: modules
-  path: ./app/node_modules
-
 run:
   path: ./app/scripts/dependencies.sh
