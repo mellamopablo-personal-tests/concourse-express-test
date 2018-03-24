@@ -1,0 +1,13 @@
+resources:
+- name: app
+  type: git
+  source:
+    uri: https://github.com/mellamopablo-personal-tests/concourse-express-test
+    branch: master
+
+jobs:
+- name: build-app
+  plan:
+  - get: app
+  - task: build
+    file: app/ci/build.yml
