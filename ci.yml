@@ -9,5 +9,6 @@ jobs:
 - name: build-app
   plan:
   - get: app
+    trigger: true
   - task: build
     file: app/ci/build.yml
