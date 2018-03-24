@@ -11,7 +11,7 @@ inputs:
 
 outputs:
 - name: modules
-  path: node_modules
+  path: ./app/node_modules
 
 run:
   path: ./app/scripts/dependencies.sh

@@ -9,7 +9,6 @@ image_resource:
 inputs:
 - name: app
 - name: modules
-  path: node_modules
 
 run:
   path: ./app/scripts/build.sh
